@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-03T13:05:34Z",
+  "generated": "2026-11-16T14:05:40Z",
   "sources": {
     "openapi": {
       "url": "partner-api.talkspirit.com/v1/openapi.json",
-      "version": "0.79.0"
+      "version": "0.85.1"
     }
   },
   "endpoints": {
@@ -222,8 +222,10 @@
         "initial_value",
         "owner_id",
         "progress_value",
+        "project_ids",
         "result_type",
         "target_value",
+        "task_ids",
         "title",
         "unit",
         "updated_at",
@@ -640,7 +642,9 @@
       "params": []
     },
     "__untracked_get_routes__": {
-      "fields": [],
+      "fields": [
+        "/v1/activities"
+      ],
       "params": []
     }
   }
